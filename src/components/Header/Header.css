@@ -1,0 +1,78 @@
+.me_header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.header {
+    position: relative;
+    max-width: calc(1080px + 36px);
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 56px;
+}
+
+.header_logo {
+    cursor: pointer;
+
+    transition: 400ms ease-in-out;
+}
+
+.header_logo:hover {
+    opacity: 0.8;
+}
+
+.header_links {
+    width: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02px;
+
+    transition: 400ms ease-in-out;
+}
+
+.header_link:hover {
+    opacity: 0.8;
+}
+
+.header_buttons {
+    width: 280px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_button {
+    padding: 5px 15px;
+
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02px;
+    border: none;
+    border-radius: 3px;
+    background-color: #e0aaff;
+    cursor: pointer;
+
+    transition: 400ms ease-in-out;
+}
+
+.header_button:hover {
+    opacity: 0.8;
+}
